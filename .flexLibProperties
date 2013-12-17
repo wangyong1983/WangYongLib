@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<flexLibProperties includeAllClasses="true" useMultiPlatformConfig="false" version="3">
+  <includeClasses>
+    <classEntry path="org.wang.utils.EasyTimer"/>
+    <classEntry path="org.wang.math.FindIndexInArray"/>
+    <classEntry path="org.wang.math.FillZeroInNumber"/>
+    <classEntry path="org.wang.math.FFT"/>
+    <classEntry path="org.wang.math.ContrastByteArray"/>
+    <classEntry path="org.wang.sound.SoundAdder"/>
+    <classEntry path="org.wang.games.rhythmmaster.data.RhythmData"/>
+    <classEntry path="org.wang.games.rhythmmaster.interfaces.IRhythmData"/>
+    <classEntry path="org.wang.games.rhythmmaster.RhythmMaster"/>
+    <classEntry path="org.wang.games.rhythmmaster.system.RhythmTread"/>
+    <classEntry path="org.wang.games.rhythmmaster.trigger.RhythmKeyTrigger"/>
+    <classEntry path="org.wang.games.rhythmmaster.system.TreadControler"/>
+    <classEntry path="org.wang.games.rhythmmaster.interfaces.IRhythmTrigger"/>
+    <classEntry path="org.wang.games.rhythmmaster.system.RhythmConfig"/>
+    <classEntry path="org.wang.games.rhythmmaster.system.HoldProcess"/>
+    <classEntry path="org.wang.games.rhythmmaster.system.TapProcess"/>
+    <classEntry path="org.wang.games.rhythmmaster.event.RhythmEvent"/>
+    <classEntry path="org.wang.games.rhythmmaster.interfaces.IRhythmProcess"/>
+    <classEntry path="org.wang.games.rhythmmaster.judge.BaseRhythmJudge"/>
+    <classEntry path="org.wang.games.rhythmmaster.interfaces.IRhythmJudge"/>
+    <classEntry path="org.wang.utils.ObjectPool"/>
+    <classEntry path="org.wang.interfaces.IRecyclable"/>
+    <classEntry path="org.wang.utils.preloader.PreLoaderManager"/>
+    <classEntry path="org.wang.utils.preloader.PreLoaderMember"/>
+  </includeClasses>
+  <includeResources/>
+  <namespaceManifests/>
+</flexLibProperties>

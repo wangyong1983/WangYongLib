@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<LoaderMax name="preLoad" prependURLs="" load="true">
+		<SWFLoader url="swf/child.swf" name="child" autoPlay="false"/>
+	</LoaderMax>
+	<LoaderMax name="source" prependURLs="" load="false">
+		<SWFLoader url="swf/child.swf" name="child" autoPlay="false"/>
+	</LoaderMax>
+	<site>
+		<channels>
+			<channel id="0" name="main" className="MainPage" skinName="MainPageMovie" source="swf" loader="child"/>
+			<channel id="1" name="page1" className="Page1"	 skinName="Page1Movie" source="swf" loader="child" />
+			<channel id="2" name="page2" className="MainPage" skinName="Page2Movie" source="swf" loader="child" />
+			<channel id="3" name="page3" className="MainPage" skinName="Page3Movie" source="swf" loader="child" />
+			<channel id="4" name="page4" className="MainPage" skinName="Page4Movie" source="swf" loader="child" />
+			<channel id="5" name="page5" className="MainPage" skinName="Page5Movie" source="swf" loader="child" />
+		</channels>
+		<others>
+			<other name="navitation" className="SiteNavigation" skinName="SiteNavigationMovie" source="swf" loader="child"></other>
+			<other name="mainBigMovie" className="MainBigMenuMovie" skinName="MainBigMenuMovie" source="swf" loader="child"></other>
+		</others>
+	</site>
+	<urls>
+		<url name="getUserInfo"></url>
+		<url name="getUserInfo"></url>
+		<url name="getUserInfo"></url>
+		<url name="getUserInfo"></url>
+		<url name="getUserInfo"></url>
+		<url name="getUserInfo"></url>
+		<url name="getUserInfo"></url>
+	</urls>
+</data>
